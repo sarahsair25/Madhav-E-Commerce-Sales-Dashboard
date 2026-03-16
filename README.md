@@ -1,5 +1,9 @@
+
+
+
+
 📊 Madhav E-Commerce Sales Dashboard — Power BI
-Show Image
+
 
 Transforming raw e-commerce data into actionable business intelligence using Power BI.
 
@@ -35,7 +39,10 @@ Interactive Dashboard Design — Slicers, filters, and drill-through navigation
 
 
 🖼️ Live Dashboard Preview
-Show Image
+
+
+
+
 The dashboard features:
 
 Quarter-wise filtering (Qtr 1 → Qtr 4)
