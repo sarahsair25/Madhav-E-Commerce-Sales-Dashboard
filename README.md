@@ -1,8 +1,5 @@
 
-
-
-
-📊 Madhav E-Commerce Sales Dashboard — Power BI
+Madhav E-Commerce Sales Dashboard — Power BI
 
 
 Transforming raw e-commerce data into actionable business intelligence using Power BI.
