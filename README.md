@@ -1,26 +1,8 @@
 
-Madhav E-Commerce Sales Dashboard — Power BI
 
+📊Madhav E-Commerce Sales Dashboard — Power BI
 
 Transforming raw e-commerce data into actionable business intelligence using Power BI.
-
-
-🗂️ Table of Contents
-
-Project Overview
-Live Dashboard Preview
-Dataset
-Tech Stack
-Key Features
-KPIs Tracked
-Dashboard Visuals
-Data Model
-DAX Calculations
-Business Insights
-Project Structure
-How to Run
-Skills Demonstrated
-Connect With Me
 
 
 📌 Project Overview
@@ -35,25 +17,50 @@ Data Storytelling — Designing visuals that communicate insights clearly
 Interactive Dashboard Design — Slicers, filters, and drill-through navigation
 
 
-🖼️ Live Dashboard Preview
+# 📁 Dataset
+
+This project utilizes the [Madhav E-Commerce Sales Dataset](https://www.kaggle.com/datasets/saadharoon27/madhav-store-dataset) from Kaggle. The data is split across two CSV files.
+
+## File Descriptions
 
 
+| File | Description |
+| :--- | :--- |
+| `Orders.csv` | Order-level data — Order ID, Date, Customer Name, State, City |
+| `Details.csv` | Transaction-level data — Amount, Profit, Quantity, Category, Sub-Category, Payment Mode |
+
+## Schema — `Orders.csv`
 
 
-The dashboard features:
+| Column | Type | Description |
+| :--- | :--- | :--- |
+| `Order ID` | String | Unique order identifier |
+| `Order Date` | Date | Date the order was placed |
+| `Customer Name` | String | Name of the customer |
+| `State` | String | Indian state of the customer |
+| `City` | String | City of the customer |
 
-Quarter-wise filtering (Qtr 1 → Qtr 4)
-State-level dropdown filter
-6 interactive chart panels for multi-dimensional analysis
+## Schema — `Details.csv`
 
 
-📁 Dataset
-FileDescriptionOrders.csvOrder-level data — Order ID, Date, Customer Name, State, CityDetails.csvTransaction-level data — Amount, Profit, Quantity, Category, Sub-Category, Payment Mode
-Source: Kaggle — Madhav E-Commerce Sales Dataset
-Schema — Orders.csv
-ColumnTypeDescriptionOrder IDStringUnique order identifierOrder DateDateDate the order was placedCustomerNameStringName of the customerStateStringIndian state of the customerCityStringCity of the customer
-Schema — Details.csv
-ColumnTypeDescriptionOrder IDStringForeign key linking to OrdersAmountIntegerSale amount (INR)ProfitIntegerProfit on the order (INR)QuantityIntegerNumber of items orderedCategoryStringProduct category (Electronics, Furniture, Clothing)Sub-CategoryStringProduct sub-categoryPaymentModeStringPayment method used
+| Column | Type | Description |
+| :--- | :--- | :--- |
+| `Order ID` | String | Foreign key linking to Orders |
+| `Amount` | Integer | Sale amount (INR) |
+| `Profit` | Integer | Profit on the order (INR) |
+| `Quantity` | Integer | Number of items ordered |
+| `Category` | String | Product category (Electronics, Furniture, Clothing) |
+| `Sub-Category` | String | Product sub-category |
+| `Payment Mode` | String | Payment method used |
+
+# 🛠️ Tech Stack
+
+*   **Power BI Desktop**: Dashboard development & visualization
+*   **Power Query (M)**: Data transformation & cleaning
+*   **DAX**: Calculated measures & KPIs
+*   **Microsoft Excel / CSV**: Raw data source
+*   **Kaggle**: Dataset sourcing
+
 
 🛠️ Tech Stack
 ToolPurposePower BI DesktopDashboard development & visualizationPower Query (M)Data transformation & cleaningDAXCalculated measures & KPIsMicrosoft Excel / CSVRaw data sourceKaggleDataset sourcing
@@ -144,7 +151,7 @@ madhav-ecommerce-dashboard/
 
 Clone this repository
 
-bash   git clone https://github.com/your-username/madhav-ecommerce-dashboard.git
+bash   git clone https://github.com/sarahsair25/madhav-ecommerce-dashboard.git
    cd madhav-ecommerce-dashboard
 
 Open Power BI Desktop
